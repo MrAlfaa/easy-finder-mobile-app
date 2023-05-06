@@ -55,7 +55,7 @@ class SignUpFragment : Fragment() {
                 Toast.makeText(context, "Empty fields are not allowed", Toast.LENGTH_SHORT).show()
         }
 
-    }
+    }//change
 
     private fun registerUser(email: String, pass: String) {
         mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
