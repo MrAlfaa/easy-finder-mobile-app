@@ -35,11 +35,11 @@ class BeforeSplashFragment : Fragment() {
         init(view)
 
         binding.iwh.setOnClickListener {
-            navController.navigate(R.id.action_beforeSplashFragment_to_signInFragment)
+            navController.navigate(R.id.action_beforeSplashFragment_to_wu_SignInFragment)
         }
 
         binding.iww.setOnClickListener {
-            navController.navigate(R.id.action_beforeSplashFragment_to_signInFragment)
+            navController.navigate(R.id.action_beforeSplashFragment_to_wu_SignInFragment)
         }
 
     }
