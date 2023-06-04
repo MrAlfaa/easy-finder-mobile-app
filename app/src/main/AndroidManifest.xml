@@ -11,27 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Easy_finder"
         tools:targetApi="31">
-        <activity
-            android:name=".UserDetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignInActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UserSignUp"
-            android:exported="false" />
-        <activity
-            android:name=".NavDrawer"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".UserDetailsActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".SignInActivity"-->
+<!--            android:exported="false" />-->
+
+<!--        <activity-->
+<!--            android:name=".UserSignUp"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".NavDrawer"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".register"
             android:exported="false" />
-        <activity
-            android:name=".U_Bottom_navigationbar"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".U_Bottom_navigationbar"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".fragments.bottom_navigationbar"
             android:exported="false" />
@@ -52,7 +50,7 @@
         <!-- android:name=".fragments.bottom_navigationbar" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".SignUpActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

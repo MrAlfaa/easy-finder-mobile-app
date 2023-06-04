@@ -59,6 +59,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.google.code.gson:gson:2.8.8'
+    testImplementation "com.google.truth:truth:0.40"
+    androidTestImplementation "com.google.truth:truth:0.40"
 
 
     def nav_version = "2.5.3"

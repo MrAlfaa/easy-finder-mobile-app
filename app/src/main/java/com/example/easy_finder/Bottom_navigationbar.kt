@@ -1,13 +1,13 @@
 package com.example.easy_finder.fragments
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.easy_finder.databinding.ActivityBottomNavigationbarBinding
 import com.example.easy_finder.Home
 import com.example.easy_finder.Notification
 import com.example.easy_finder.Profile
 import com.example.easy_finder.R
+import com.example.easy_finder.databinding.ActivityBottomNavigationbarBinding
 
 class bottom_navigationbar : AppCompatActivity() {
 
