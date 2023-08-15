@@ -48,16 +48,36 @@
             android:id="@+id/action_beforeSplashFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
         <action
-            android:id="@+id/action_beforeSplashFragment_to_signUpActivity"
-            app:destination="@id/signUpActivity" />
+            android:id="@+id/action_beforeSplashFragment_to_wu_SignInFragment"
+            app:destination="@id/wu_SignInFragment" />
     </fragment>
     <activity
         android:id="@+id/bottom_navigationbar"
         android:name="com.example.easy_finder.fragments.bottom_navigationbar"
         android:label="activity_bottom_navigationbar"
         tools:layout="@layout/activity_bottom_navigationbar" />
-    <activity
-        android:id="@+id/signUpActivity"
-        android:name="com.example.easy_finder.SignUpActivity"
-        android:label="SignUpActivity" />
+    <fragment
+        android:id="@+id/wu_SignInFragment"
+        android:name="com.example.easy_finder.fragments.wu_SignInFragment"
+        android:label="wu_SignInFragment" >
+        <action
+            android:id="@+id/action_wu_SignInFragment_to_wu_SignUpFragment"
+            app:destination="@id/wu_SignUpFragment" />
+        <action
+            android:id="@+id/action_wu_SignInFragment_to_profile2"
+            app:destination="@id/profile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/wu_SignUpFragment"
+        android:name="com.example.easy_finder.fragments.wu_SignUpFragment"
+        android:label="wu_SignUpFragment" >
+        <action
+            android:id="@+id/action_wu_SignUpFragment_to_wu_SignInFragment"
+            app:destination="@id/wu_SignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.easy_finder.Profile"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
 </navigation>

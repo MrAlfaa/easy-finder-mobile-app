@@ -36,7 +36,7 @@ class wu_SignUpFragment : Fragment() {
         init(view)
 
         binding.wuTextViewSignIn.setOnClickListener {
-            navController.navigate(R.id.action_signUpFragment_to_signInFragment)
+            navController.navigate(R.id.action_wu_SignUpFragment_to_wu_SignInFragment)
         }
 
         binding.wuNextBtn.setOnClickListener {
@@ -66,7 +66,7 @@ class wu_SignUpFragment : Fragment() {
             if (it.isSuccessful)
 
 
-                navController.navigate(R.id.action_signUpFragment_to_signInFragment)
+                navController.navigate(R.id.action_wu_SignUpFragment_to_wu_SignInFragment)
 
 
 
